@@ -324,17 +324,7 @@ class MyHomePageState extends State<MyHomePage> {
                     child: child,
                   );
                 }),
-            TagExtension(
-              tagsToExtend: {"tex"},
-              builder: (context) => Math.tex(
-                context.innerHtml,
-                mathStyle: MathStyle.display,
-                textStyle: context.styledElement?.style.generateTextStyle(),
-                onErrorFallback: (FlutterMathException e) {
-                  return Text(e.message);
-                },
-              ),
-            ),
+
             TagExtension.inline(
               tagsToExtend: {"bird"},
               child: const TextSpan(text: "🐦"),
@@ -364,12 +354,7 @@ class MyHomePageState extends State<MyHomePage> {
               networkDomains: {"mydomain.com"},
               networkHeaders: {"Custom-Header": "some-value"},
             ),
-            const MathHtmlExtension(),
-            const AudioHtmlExtension(),
-            const VideoHtmlExtension(),
-            const IframeHtmlExtension(),
-            const TableHtmlExtension(),
-            const SvgHtmlExtension(),
+
           ],
           onLinkTap: (url, _, __) {
             debugPrint("Opening $url...");

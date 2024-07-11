@@ -1,6 +1,6 @@
 name: flutter_html_2
 description: A Flutter widget for rendering static HTML and CSS as Flutter widgets.
-version: 0.0.3
+version: 0.0.7
 homepage: https://github.com/Sub6Resources/flutter_html
 
 environment:
@@ -15,7 +15,7 @@ dependencies:
   csslib: ^1.0.0
 
   # Plugin for firstWhereOrNull extension on lists
-  collection: ^1.18.0
+  collection: ^1.19.0
 
   # plugin to manage lists and counting in a variety of styles
   list_counter: ^1.0.2
@@ -27,8 +27,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  meta: ^1.12.0
+  meta: ^1.15.0
   melos: ^6.1.0
+
+dependency_overrides:
+  collection: ^1.19.0
+  meta: ^1.15.0
 
 screenshots:
   - description: 'An example of the output produced by flutter_html_2'
