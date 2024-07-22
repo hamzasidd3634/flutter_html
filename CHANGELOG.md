@@ -1,5 +1,13 @@
 # Change Log
 
+## [0.0.9] - July 22, 2024:
+
+* Update example.
+
+
+## [0.0.7] - July 22, 2024:
+
+* Fix some bugs.
 
 ## [0.0.7] - July 11, 2024:
 
