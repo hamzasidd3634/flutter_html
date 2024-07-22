@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.0] - July 22, 2024:
+
+* Update example.
+* 
 ## [0.0.9] - July 22, 2024:
 
 * Update example.
